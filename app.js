@@ -6,9 +6,6 @@ const mongoclient = mongodb.MongoClient;
 const bcryptjs = require("bcryptjs");
 const e = require("express");
 const jwt = require("jsonwebtoken");
-
-
-
 app.use(express.json())
 app.use(cors({
     origin: "*"
